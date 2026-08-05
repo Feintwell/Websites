@@ -1,0 +1,102 @@
+body {
+    background-color: #FFD6BA /*#EFE3C2*/;
+    font-family: 'Helvetica';
+    font-size: 19px;
+	color: #123524;
+}
+
+.foot {
+    background-color: #059212;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+	color: pink;
+}
+
+.heart-bullets {
+  list-style: none;
+  padding-left: 0;
+  color: #123524;
+  font-size: 1.1rem;
+}
+
+.heart-bullets li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.heart-bullets li::before {
+  content: "❤";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #FF0B55 /*06D001*/;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #F72C5B, #FF748B);
+  color: #27391C;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+.topnav {
+    background-color: #059212;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.right {
+    float:right;
+}
+
+.topnav a:hover {
+    background-color: #06D001;
+    color: pink;
+}
+
+.topnav a.active {
+    background-color: #399918;
+    color: pink;
+}
+
+nav .topnav a {
+    color: pink;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
