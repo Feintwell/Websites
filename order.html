@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/form.css">
+    <title>SoftUni Beer</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav">
+            <a class="logo" href="index.html"><img src="images/logo.png"/></a>
+            <a href="index.html">Home</a>
+			<a href="aboutus.html">About Us</a>
+            <a href="allbeers.html">See All Beers</a>
+            <a class="active" href="order.html">Order a Beer</a>
+			<a class="right" href="contact.html">Contact Us</a>
+			<a class="right" href="dashboard.html">DashBoard</a>
+            <a class="right" href="register.html">Register</a>
+            <a class="right" href="login.html">Log In</a>
+
+        </div>
+
+        
+    </nav>
+
+    <main>
+        <center> 
+            <h1>Order a Beer</h1>
+            <br/>
+            <form>
+                <label>Brand</label>
+                <select>
+                    <option selected disabled>Select a brand</option>
+                    <option>Corona Extra 330ml</option>
+                    <option>Stella Artois 500ml</option>
+                    <option>Carlsberg 330ml</option>
+                    <option>Heineken 330ml</option>
+                
+                <label>Quantity</label>
+                <input type="number" min="1" max="15" 
+                placeholder="Enter amount of beers (1-15)">
+
+                <label>Destination</label>
+                    <select>
+                        <option disabled selected>Select a destination</option>
+                        <option value="Suva">Suva</option>
+                        <option value="Nadi">Nadi</option>
+                        <option value="Lautoka">Lautoka</option>
+                        <option value="Ba">Ba</option>
+                    </select>
+                
+
+                <label>Enter your birthdate</label>
+                <input name="birthdate" placeholder="mm/dd/yyyy" required type="date">
+
+                <label>Got an opinion, comment, recommendation? Share it us with us!</label>
+                    <textarea name="comment" placeholder="Share your opinion with us!"></textarea>
+                
+                <input type="submit" value="Order">
+                
+
+
+            </form>
+        </center>
+
+    </main>
+
+    <footer>
+        <hr/>
+        <p><em>&copy; 2017 &ndash;SoftUni Beers</em></p>
+    </footer>
+</body>
+
+</html>
